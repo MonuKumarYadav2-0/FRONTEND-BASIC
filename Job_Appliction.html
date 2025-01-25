@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Job Application form</title>
+  </head>
+  <body
+    background="https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXxlbnwwfHwwfHx8MA%3D%3D"
+  >
+    <h1 align="center">Job Application Form</h1>
+    <hr width="50%" color="black" />
+    <form action="">
+      <table align="center" cellspacing="10">
+        <tr>
+          <td><label for="name">Full Name</label></td>
+          <td>
+            <input
+              type="text"
+              size="50"
+              id="name"
+              placeholder="enter you name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Job">Job Tittle</label></td>
+          <td>
+            <input
+              type="text"
+              size="50"
+              id="Job"
+              placeholder="enter job tittle"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="company">Current Company</label></td>
+          <td>
+            <input
+              type="text"
+              size="50"
+              placeholder="enter Current company"
+              id="company"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="contact">contact number</label></td>
+          <td>
+            <select name="" id="contact">
+              <datalist onpointerdown="selected">+91</datalist>
+              <option>+92</option>
+              <option>+82</option>
+              <option>+72</option>
+            </select>
+            <input type="tel" size="43" placeholder="enter contact number" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email Id</label></td>
+          <td>
+            <input
+              type="email"
+              id="email"
+              size="50"
+              placeholder="enter your email id"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="work">Work Status</label></td>
+          <td>
+            <label for="Fulltime">
+              <input type="radio" id="Fulltime" name="work" /> Full Time</label
+            >
+            <label for="parttime">
+              <input type="radio" id="parttime" name="work" /> Part Time</label
+            >
+            <label for="perdim">
+              <input type="radio" name="work" id="perdim" /> Per Dim</label
+            >
+            <label for="other">
+              <input type="radio" id="other" name="work" /> Other</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><label for="salary">Expected Salary</label></td>
+          <td>
+            <input
+              type="tel"
+              id="salary"
+              size="29"
+              placeholder="enter expected salary in digits"
+            />
+            <select name="" id="">
+              <option value="">rupees</option>
+              <option value="">doller</option>
+              <option value="">won</option>
+              <option value="">Riyal</option>
+            </select>
+            <select name="" id="">
+              <option value="">yearly</option>
+              <option value="">Monthly</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="experience">Work experience</label></td>
+          <td>
+            <input
+              type="text"
+              id="experience"
+              size="50"
+              placeholder="enter your work experience"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="location">Current location</label></td>
+          <td>
+            <input
+              type="text"
+              id="location"
+              placeholder="enter your Current location"
+              size="50"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="adress">Permanent Adress</label></td>
+          <td>
+            <textarea
+              name=""
+              id="adress"
+              rows="5"
+              cols="50"
+              placeholder="enter your permanent adress"
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="resume">Upload resume</label></td>
+          <td><input type="file" placeholder="Upload your resume" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Click to Submit" /></td>
+          <td align="center"><input type="reset" value="Click to Reset" /></td>
+        </tr>
+      </table>
+    </form>
+    <hr color="black" width="50%" />
+  </body>
+</html>
